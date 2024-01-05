@@ -1,0 +1,271 @@
+@media screen and (min-width: 1536px) {
+  .textFront {
+    font-size: 170%;
+  }
+
+  span {
+    font-size: 200%;
+  }
+
+  .centerbox {
+    margin-top: 320px;
+  }
+
+  .upcomingDiv {
+    margin-top: 15%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.frontPage {
+  display: flex;
+  max-width: 1800px;
+  margin: auto;
+}
+
+header {
+  width: 40%;
+  background-image: url("man.jpg");
+  height: 100vh;
+  background-position: center;
+}
+
+.textFront {
+  color: #4ababa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 170%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16.25rem 4.7rem;
+}
+
+.upcomingDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 42%;
+}
+
+span {
+  margin-top: 5%;
+  font-size: 240%;
+}
+
+button {
+  margin-top: 187.5%;
+  width: 17rem;
+  height: 6.25rem;
+  border-radius: 32px;
+  background: #4ababa;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.625em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 75px;
+}
+
+.buttonFlex {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+
+.formDiv {
+  width: 60%;
+  background-color: rgba(100, 94, 94, 1);
+  height: 100vh;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+#searchField {
+  border-radius: 32px 0px 0px 32px;
+  background: #d7d7d7;
+  width: 43.75rem;
+  height: 4rem;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.fieldButton {
+  border-radius: 0px 32px 32px 0px;
+  background: #4ababa;
+  width: 130px;
+  height: 4rem;
+  flex-shrink: 0;
+  border: none;
+  margin: 0;
+}
+
+#SearchAgain:hover {
+  background-color: #ffffff8f;
+}
+
+.fieldButton:hover {
+  background-color: #b4b4b4;
+}
+
+form {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 100px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.checkDiv {
+  margin-top: 40px;
+}
+
+.centerbox {
+  margin-top: 460px;
+  display: flex;
+  flex-direction: column;
+}
+
+.backForlist {
+  max-width: 1800px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.42);
+}
+
+.searcH3 {
+  background: #d7d7d7;
+  width: 100%;
+  height: 71px;
+  flex-shrink: 0;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+.listDiv {
+  background-color: #b4b4b4;
+  display: grid;
+}
+
+.listDiv img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.listText {
+  width: 100%;
+}
+
+.listText h4 {
+  margin-top: 2px;
+  margin-bottom: 12px;
+  font-size: 1.2em;
+}
+
+.infoP {
+  margin-bottom: 12px;
+}
+
+li {
+  max-width: 400px;
+  width: 100%;
+}
+
+.dateP {
+  margin-top: 6px;
+}
+
+#headerText {
+  font-size: 2em;
+  padding-top: 1.1%;
+}
+
+.picDiv {
+  width: 100%;
+}
+
+#SearchAgain {
+  background: #d7d7d7;
+  width: 100%;
+  height: 71px;
+  flex-shrink: 0;
+  border-radius: 0;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  display: none;
+}
+.centerButton {
+  display: flex;
+  justify-content: center;
+}
+.visible,
+#SearchAgain.visible {
+  display: block;
+}
+
+@media screen and (max-width: 1536px) {
+  .textFront {
+    font-size: 170%;
+  }
+
+  span {
+    font-size: 200%;
+  }
+
+  .centerbox {
+    margin-top: 320px;
+  }
+
+  .upcomingDiv {
+    margin-top: 0;
+  }
+
+  #searchField {
+    width: 38rem;
+    height: 4rem;
+  }
+
+  .fieldButton {
+    height: 4rem;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
